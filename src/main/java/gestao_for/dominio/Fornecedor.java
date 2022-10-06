@@ -1,7 +1,5 @@
 package gestao_for.dominio;
 
-import java.util.List;
-
 public class Fornecedor extends EntidadeDominio{
 
 	private boolean isRascunho;
@@ -116,7 +114,7 @@ public class Fornecedor extends EntidadeDominio{
 		this.endereco = endereco;
 	}
 
-	//métodos de acesso 
+	//mï¿½todos de acesso 
 	public boolean isRascunho() {
 		return isRascunho;
 	}
